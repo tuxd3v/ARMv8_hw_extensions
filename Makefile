@@ -103,35 +103,3 @@ clean:
 	@if [ -f ${CRC32_OBJS} ];then		\
 		rm -v ${CRC32_OBJS};		\
 	fi
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-crc32: crc32.c crc32.h
-	 $(CC) $(CFLAGS) crc32_armv8.c -o crc32
